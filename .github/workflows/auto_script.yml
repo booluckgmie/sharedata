@@ -2,7 +2,7 @@ name: Scheduled Python Script
 
 on:
   schedule:
-    - cron: "55 14 * * *"
+    - cron: '0 7 * * *'  #3:00PM Malaysia Time
 jobs:
   run-python-script:
     runs-on: ubuntu-latest
