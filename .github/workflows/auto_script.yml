@@ -2,9 +2,7 @@ name: Scheduled Python Script
 
 on:
   schedule:
-    # Set the schedule to your desired cron expression
-    - cron: '40 6 * * *'  # This example runs the job daily at midnight UTC 3:00PM
-
+    - cron: "50 2 * * *"
 jobs:
   run-python-script:
     runs-on: ubuntu-latest
