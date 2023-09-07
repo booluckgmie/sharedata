@@ -14,7 +14,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.10.0  # You can specify the Python version you need
+          python-version: 3.8  # You can specify the Python version you need
       
       - name: Run Python Script
         run: python auto_script.py  # Replace 'your_script.py' with your Python script's filename
